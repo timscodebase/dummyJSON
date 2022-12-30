@@ -1,0 +1,26 @@
+:root {
+  --spacing: 1rem;
+  --font-family: 'Roboto', sans-serif;
+
+  --bright-white: #fffffe;
+  --white: #f9f4ef;
+  --black: #020826;
+  --brown: #716040;
+  --tan: #907d58;
+  --red: #f25042;
+
+  --bg: var(--white);
+  --light-text: var(--white);
+  --dark-text: var(--black);
+  --header-bg: var(--brown);
+  --footer-bg: var(--black);
+  --footer-text: var(--tan);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  background-color: var(--bg);
+  font-family: var(--font-family);
+}
